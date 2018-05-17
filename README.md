@@ -1,2 +1,2 @@
 # 9-prj-15052018-aki-company
-9-prj-15052018-aki-company created by GitHub Classroom
+Общими усилиями 3х человек был создан сайт-портфолио. (соотношение сил 59%/29%/2%)
