@@ -1,0 +1,119 @@
+
+body{
+    background: #90bdc2;
+}
+
+@media (min-width:1001px){
+.table {
+    padding-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
+    position: static;
+    grid-gap: 15px 15px;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align: center;
+    grid-template-areas:  "anton ksusha gallery about"
+                          "anton ksusha gallery about"
+                          "ivan ivan gallery about"
+                          "ivan ivan gallery about";
+}
+
+.anton {
+    background: #ffa600;
+    grid-area: anton;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+    grid-template-rows: 1fr;
+}
+
+.ksusha {
+    background: #ffa600;
+    grid-area: ksusha;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+}
+
+.ivan {
+    background: #ffa600;
+    grid-area: ivan;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+}
+
+.gallery {
+    background: #2a5864;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+    grid-area: gallery;
+    text-align: center;
+}
+
+.about {
+    background: #2a5864;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+    grid-area: about;
+}
+
+.null {
+    background: rgba(235, 230, 92, 0);
+    grid-area: null;
+
+}}
+
+@media (max-width: 1000px){
+.table {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding-left: 20px;
+    text-align: center;
+    padding-right: 20px;
+    grid-template-areas:  "anton"
+                          "ksusha"
+                          "ivan"
+                          "gallery"
+                          "about";
+}
+
+.anton {
+    background: #ffa600;
+    grid-area: anton;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px;
+    grid-template-rows: 1fr;
+}
+
+.ksusha {
+    background: #ffa600;
+    grid-area: ksusha;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+    grid-template-rows: 1fr;
+}
+
+.ivan {
+    background: #ffa600;
+    grid-area: ivan;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+    grid-template-rows: 1fr;
+}
+
+.gallery {
+    background: #2a5864;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+    grid-area: gallery;
+    grid-template-rows: 1fr;
+}
+
+.about {
+    background: #2a5864;
+    border: 6px solid #fff; /* Белая рамка */
+    border-radius: 10px; 
+    grid-area: about;
+    grid-template-rows: 1fr;
+    }
+}
